@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+}
+#title{
+    background-color: #ff4c68;
+    height: 720px;
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Montserrat;
+}
+h1{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color:white;
+}
+h2{
+    font-size: 3rem;
+}
+.container-fluid{
+    padding: 0% 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.title-text{
+    padding: 7%;
+}
+.title-image{
+    padding-left: 8%;
+}
+.movl{
+  position: relative;
+  left: 50%;
+}
+.rota{
+    transform: rotate(20deg);
+}
+#features{
+    padding: 17% 13%;
+    background-color: #fff;
+    z-index: 1;
+    position:relative;
+}
+.features-icon{
+    color:#ff4c68;
+    padding-bottom: 10px;
+}
+.features-icon:hover{
+    color: #d82f49;
+}
+#testimonials{
+    padding: 10% 10%;
+    background-color: #ff4c68;
+    color:white;
+}
+.testimonials-image{
+    width: 20%;
+  border-radius: 2000px;
+  margin-top: 40px;
+}
+.testimonials-text{
+    font-size: 2rem;
+}
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 20px;
+}
+#pricing{
+    
+    padding: 5% 0%;
+}
+.price-heading{
+    padding-bottom: 3%;
+}
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 0%;
+    
+}
+.cta-heading{
+    padding-bottom: 3%;
+    color:#fff;
+}
+#footer{
+    background-color: #fff;
+    padding: 3% 0% 3% 0%;
+}
+.footer-copyright{
+    color:gray;
+}
+.footer-icon{
+    padding: 1% 0.5%;
+}
+@media only screen and (max-width:1028px){
+    .rota{
+        transform: rotate(0deg);
+        position: static;
+    }
+    #title{
+        text-align: center;
+        height: 900px;
+    }
+}
